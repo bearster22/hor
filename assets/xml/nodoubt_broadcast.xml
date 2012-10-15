@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tt xmlns="http://www.w3.org/2006/04/ttaf1"
+    xmlns:tts="http://www.w3.org/2006/04/ttaf1#styling" xml:lang="en">
+<head>
+    <styling>
+        <style id="defaultCaption"
+            tts:fontSize="14px"
+            tts:fontFamily="Arial"
+            tts:fontWeight="normal"
+            tts:fontStyle="normal"
+            tts:color="white"
+            tts:backgroundColor="black"
+            tts:textAlign="center" />
+    </styling>
+</head>
+<body id="thebody" style="defaultCaption">
+    <div xml:lang="en">
+        <p begin="00:00:01.600" end="00:00:05.566">[dramatic rock music]</p>
+        <p begin="00:00:05.566" end="00:00:09.600">&#45; [singing] One more summer</p>
+        <p begin="00:00:09.600" end="00:00:13.333">One more weekend</p>
+        <p begin="00:00:13.333" end="00:00:17.000">I&#39;m your lover</p>
+        <p begin="00:00:17.000" end="00:00:21.833">You&#39;re my weakness</p>
+        <p begin="00:00:21.833" end="00:00:25.233">Oh&#45;oh&#45;oh, oh</p>
+        <p begin="00:00:25.233" end="00:00:27.000">female announcer: <br/>Get No Doubt&#39;s new album,</p>
+        <p begin="00:00:27.000" end="00:00:29.533">with five exclusive songs, <br/>only at Target.</p>
+    </div>
+</body>
+</tt>

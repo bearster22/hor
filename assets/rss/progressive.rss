@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding='UTF-8'?>
+<feed xmlns:media='http://search.yahoo.com/mrss/' xmlns:target='http://www.target.com/tmrss/'>
+<title>Progressive Video with Captions and Audiodescription</title>
+<description>Progressive Video with Captions and Audiodescription</description>
+<target:name>Progressive Video with Captions and Audiodescription</target:name>
+<link>http://www.foo.com</link>
+<target:settings>
+    <target:attributes>        
+    </target:attributes>
+</target:settings>
+<item>
+    <title>Progressive Video with Captions and Audiodescription</title>
+    <target:name>Progressive Video with Captions and Audiodescription</target:name>
+    <link>http://www.foo.com</link>
+    <description>long description of video2</description>
+    <target:shortDescription>Progressive Video with Captions and Audiodescription</target:shortDescription>
+    <target:attributes>
+    	<target:attribute name="captions"><![CDATA[./assets/xml/corrie.xml]]></target:attribute>
+        <target:attribute name="audiodescription"><![CDATA[./assets/media/corrie.mp3]]></target:attribute>
+    </target:attributes>
+    <target:poster url='./assets/media/corrie.jpg' height='500' width='400' />
+    <media:group>
+          <media:content url="./assets/media/corrie.flv" 
+        fileSize="1300" bitrate="50" type="video/flv" 
+        isDefault="true" expression="full"/>
+    </media:group>
+</item>
+</feed>

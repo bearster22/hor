@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding='UTF-8'?>
+<feed xmlns:media='http://search.yahoo.com/mrss/' xmlns:target='http://www.target.com/tmrss/'>
+<title>Streaming Video With Audiodescription</title>
+<description>Streaming Video With Audiodescription</description>
+<target:name>Streaming Video With Audiodescription</target:name>
+<link>http://www.foo.com</link>
+<target:settings>
+</target:settings>
+<item>
+    <title>Streaming Video With Audiodescription</title>
+    <target:name>Streaming Video With Audiodescription</target:name>
+    <link>http://www.foo.com</link>
+    <description>Streaming Video With Audiodescription</description>
+    <target:shortDescription>Streaming Video With Audiodescription</target:shortDescription>
+    <target:attributes>
+        <target:attribute name="audiodescription"><![CDATA[./assets/media/audiodescription.mp3]]></target:attribute>
+    </target:attributes>
+    <target:poster url='http://www.ocointeractive.com/target/video/assets/img/np.jpg' height='500' width='400' />
+    <media:group>
+        <media:content url="rtmp://cp50050.edgefcs.net/ondemand/targetmedia/beautyNED/2009/np/np_Method_Man_NED_sm.flv" 
+        fileSize="1000" bitrate="50" type="video/flv" 
+        isDefault="true" expression="full"/>
+        <media:content url="rtmp://cp50050.edgefcs.net/ondemand/targetmedia/beautyNED/2009/np/np_Method_Man_NED_lg.flv" 
+        fileSize="1000" bitrate="900" type="video/flv" 
+            expression="full"/>
+        <media:content url="rtmp://cp50050.edgefcs.net/ondemand/targetmedia/beautyNED/2009/np/np_Method_Man_NED_lg.flv" 
+        fileSize="1000" bitrate="1200" type="video/flv" 
+           isHQ="true" expression="full"/>
+    </media:group>
+</item>
+</feed>

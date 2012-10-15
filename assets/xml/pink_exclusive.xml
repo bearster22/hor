@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tt xmlns="http://www.w3.org/2006/04/ttaf1"
+    xmlns:tts="http://www.w3.org/2006/04/ttaf1#styling" xml:lang="en">
+<head>
+    <styling>
+        <style id="defaultCaption"
+            tts:fontSize="14px"
+            tts:fontFamily="Arial"
+            tts:fontWeight="normal"
+            tts:fontStyle="normal"
+            tts:color="white"
+            tts:backgroundColor="black"
+            tts:textAlign="center" />
+    </styling>
+</head>
+<body id="thebody" style="defaultCaption">
+    <div xml:lang="en">
+        <p begin="00:00:01.200" end="00:00:02.600">[guitar and piano music]</p>
+        <p begin="00:00:02.600" end="00:00:05.700">&#45; AND PLAYBACK.</p>
+        <p begin="00:00:05.700" end="00:00:08.466">&#45; THE TITLE OF MY <br/>BRAND&#45;NEW ALBUM IS CALLED</p>
+        <p begin="00:00:08.466" end="00:00:09.566">&quot;TRUTH ABOUT LOVE.&quot;</p>
+        <p begin="00:00:09.566" end="00:00:12.166">FOR OUR WONDERFUL TARGET <br/>COMMERCIAL&#45;&#45;</p>
+        <p begin="00:00:12.166" end="00:00:14.200">WHICH IS UNLIKE ANYTHING <br/>I&#39;VE EVER DONE BEFORE</p>
+        <p begin="00:00:14.200" end="00:00:17.100">AND I&#39;M SUPER DUPER EXCITED <br/>TO SEE IT WHEN IT&#39;S FINISHED&#45;&#45;</p>
+        <p begin="00:00:17.100" end="00:00:18.700">WE&#39;RE USING THE SONG &quot;TRY.&quot;</p>
+        <p begin="00:00:18.700" end="00:00:23.000">[singing] WHERE THERE IS DESIRE <br/>THERE IS GONNA BE A FLAME</p>
+        <p begin="00:00:23.000" end="00:00:24.766">IT&#39;S VERY DIFFERENT <br/>THAN ANYTHING I&#39;VE EVER DONE.</p>
+        <p begin="00:00:24.766" end="00:00:26.433">I THINK IT&#39;S GOING TO BE <br/>ABSOLUTELY BEAUTIFUL.</p>
+        <p begin="00:00:26.433" end="00:00:28.200">IT&#39;S AN ALBUM FULL OF QUESTIONS</p>
+        <p begin="00:00:28.200" end="00:00:31.900">CENTERED AROUND RELATIONSHIPS <br/>AND THE SCARY SIDE, MOSTLY.</p>
+        <p begin="00:00:31.900" end="00:00:32.933">[laughs]</p>
+        <p begin="00:00:32.933" end="00:00:35.200">[singing] YOU GOT TO GET UP <br/>AND TRY</p>
+        <p begin="00:00:35.200" end="00:00:37.233">TRY, TRY</p>
+        <p begin="00:00:37.233" end="00:00:38.833">FOR THE TARGET EXCLUSIVE <br/>ON MY ALBUM,</p>
+        <p begin="00:00:38.833" end="00:00:40.333">THERE&#39;S A BUNCH OF EXTRA SONGS.</p>
+        <p begin="00:00:40.333" end="00:00:44.400">IT GIVES A MUCH FULLER PICTURE <br/>OF WHAT I&#39;VE BEEN GOING THROUGH</p>
+        <p begin="00:00:44.400" end="00:00:47.033">FOR THE LAST FOUR YEARS.</p>
+        <p begin="00:00:47.033" end="00:00:51.033">BEING A VERY, VERY HONEST <br/>AND OPEN BOOK</p>
+        <p begin="00:00:51.033" end="00:00:53.966">HAS ALLOWED A RELATIONSHIP <br/>TO FORM WITH MY FANS.</p>
+        <p begin="00:00:53.966" end="00:00:55.233">AS OPPOSED TO</p>
+        <p begin="00:00:55.233" end="00:00:57.400">&quot;I WANT TO BE LIKE YOU! <br/>I WANT TO HAVE PINK HAIR,&quot;</p>
+        <p begin="00:00:57.400" end="00:01:02.066">I HEAR MORE &quot;I WANT TO BE <br/>LIKE ME BECAUSE OF YOU.&quot;</p>
+        <p begin="00:01:02.066" end="00:01:04.766">I&#39;M LIKE, <br/>&quot;THAT&#39;S WHAT I&#39;M GOING FOR.&quot;</p>
+        <p begin="00:01:04.766" end="00:01:07.033">I THINK TARGET <br/>IS A GREAT PARTNER FOR ME</p>
+        <p begin="00:01:07.033" end="00:01:08.766">BECAUSE I PRACTICALLY <br/>LIVE THERE.</p>
+        <p begin="00:01:08.766" end="00:01:11.200">I&#39;M THE PERSON IN TARGET <br/>THAT YOU WOULD FIND</p>
+        <p begin="00:01:11.200" end="00:01:13.700">IN BETWEEN TWO CARTS, <br/>ONE FACING FORWARD</p>
+        <p begin="00:01:13.700" end="00:01:16.133">AND ONE BEING PULLED BACKWARDS.</p>
+        <p begin="00:01:16.133" end="00:01:18.133">MY ALBUM IS CALLED <br/>&quot;THE TRUTH ABOUT LOVE&quot;</p>
+        <p begin="00:01:18.133" end="00:01:21.533">AND IT IS AVAILABLE AT TARGET <br/>SEPTEMBER 18TH.</p>
+        <p begin="00:01:21.533" end="00:01:23.266">[singing] <br/>THERE IS GONNA BE A FLAME</p>
+    </div>
+</body>
+</tt>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tt xmlns="http://www.w3.org/2006/04/ttaf1"
+    xmlns:tts="http://www.w3.org/2006/04/ttaf1#styling" xml:lang="en">
+<head>
+    <styling>
+        <style id="defaultCaption"
+            tts:fontSize="14px"
+            tts:fontFamily="Arial"
+            tts:fontWeight="normal"
+            tts:fontStyle="normal"
+            tts:color="white"
+            tts:backgroundColor="black"
+            tts:textAlign="center" />
+    </styling>
+</head>
+<body id="thebody" style="defaultCaption">
+    <div xml:lang="en">
+        <p begin="00:00:00.533" end="00:00:02.266">[muffled music]</p>
+        <p begin="00:00:02.266" end="00:00:04.733">&#45; [singing] <br/>I can make it</p>
+        <p begin="00:00:04.733" end="00:00:06.933">&#45; [singing] <br/>For once in my life</p>
+        <p begin="00:00:06.933" end="00:00:11.366">I have someone <br/>who needs me</p>
+        <p begin="00:00:11.366" end="00:00:12.600">[energetic brass music]</p>
+        <p begin="00:00:12.600" end="00:00:15.200">[both singing] <br/>Come the day you&#39;re mine</p>
+        <p begin="00:00:15.200" end="00:00:17.733">[energetic brass music]</p>
+        <p begin="00:00:17.733" end="00:00:18.733">&#45; Whoo!</p>
+        <p begin="00:00:18.733" end="00:00:24.900">[both singing] <br/>If you turn away</p>
+        <p begin="00:00:24.900" end="00:00:26.833">female announcer: <br/>Get Tony Bennett&#39;s new album,</p>
+        <p begin="00:00:26.833" end="00:00:29.633">with four exclusive tracks, <br/>only at Target.</p>
+    </div>
+</body>
+</tt>

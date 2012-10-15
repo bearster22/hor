@@ -1,0 +1,8 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.room a {font-weight:bold;}
+.tab_top {width:230px;}
+.tab_top a {width:230px;filter:none;background:#b52618;}
+.pink_space > img {margin-left:-600px;}
+

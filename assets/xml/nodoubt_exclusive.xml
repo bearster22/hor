@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tt xmlns="http://www.w3.org/2006/04/ttaf1"
+    xmlns:tts="http://www.w3.org/2006/04/ttaf1#styling" xml:lang="en">
+<head>
+    <styling>
+        <style id="defaultCaption"
+            tts:fontSize="14px"
+            tts:fontFamily="Arial"
+            tts:fontWeight="normal"
+            tts:fontStyle="normal"
+            tts:color="white"
+            tts:backgroundColor="black"
+            tts:textAlign="center" />
+    </styling>
+</head>
+<body id="thebody" style="defaultCaption">
+    <div xml:lang="en">
+        <p begin="00:00:01.000" end="00:00:02.000">&#45; Hey, what up? <br/>That&#39;s Adrian.</p>
+        <p begin="00:00:02.000" end="00:00:03.500">&#45; This is Gwen. <br/>&#45; That&#39;s Tom.</p>
+        <p begin="00:00:03.500" end="00:00:04.500">&#45; And this is Tony.</p>
+        <p begin="00:00:04.500" end="00:00:06.366">&#45; We are the band No Doubt.</p>
+        <p begin="00:00:06.366" end="00:00:09.933">&#45; [singing] One more summer</p>
+        <p begin="00:00:09.933" end="00:00:13.633">One more weekend</p>
+        <p begin="00:00:13.633" end="00:00:15.766">We were just trying to make <br/>a great record</p>
+        <p begin="00:00:15.766" end="00:00:19.033">that had all of the inspirations <br/>that we love</p>
+        <p begin="00:00:19.033" end="00:00:21.933">and just be really modern, <br/>where we&#39;re at right now.</p>
+        <p begin="00:00:21.933" end="00:00:25.833">&#45; When we were inspired, <br/>we knew we were on to something.</p>
+        <p begin="00:00:25.833" end="00:00:29.666">&#45; [singing] Oh&#45;oh&#45;oh, <br/>oh&#45;oh&#45;oh, oh</p>
+        <p begin="00:00:29.666" end="00:00:32.200">I think we feel really excited <br/>to do this commercial today,</p>
+        <p begin="00:00:32.200" end="00:00:34.133">because it&#39;s a big deal.</p>
+        <p begin="00:00:34.133" end="00:00:36.033">They chose us. <br/>It&#39;s crazy, right?</p>
+        <p begin="00:00:36.033" end="00:00:37.333">We love Target.</p>
+        <p begin="00:00:37.333" end="00:00:39.633">The idea of having <br/>this special edition</p>
+        <p begin="00:00:39.633" end="00:00:42.400">and being able to do, like, <br/>a little mini video</p>
+        <p begin="00:00:42.400" end="00:00:45.000">to go with a song that we love <br/>called &quot;One More Summer&quot;</p>
+        <p begin="00:00:45.000" end="00:00:47.133">has been really exciting.</p>
+        <p begin="00:00:47.133" end="00:00:48.333">Working with Target,</p>
+        <p begin="00:00:48.333" end="00:00:50.266">you always know you&#39;re gonna get <br/>something great,</p>
+        <p begin="00:00:50.266" end="00:00:53.966">because everyone&#39;s so into it <br/>and motivated and inspired.</p>
+        <p begin="00:00:53.966" end="00:00:56.166">&#45; The Target exclusive edition <br/>of &quot;Push and Shove&quot;</p>
+        <p begin="00:00:56.166" end="00:00:58.633">will be available <br/>September 25th.</p>
+    </div>
+</body>
+</tt>
