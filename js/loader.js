@@ -394,11 +394,7 @@ $(document).ready(function () {
 					$(".pink_space").css("height", "517px");
 					$(".nodoubtpage").css("height", "517px");
 				}
-				// fix for 1Ds page (taller)
-				else if(page == "onedirection") {
-					$(".redroom").css("height","643px");
-					$("#catgoryHeaderContainer").css("height","657px");  // Sarah's test to fix resizing issue (not working)
-				}
+				
 				$(".popup").animate({opacity:1},500);	
 				openTray(null);
 				var interact = false;
@@ -486,7 +482,7 @@ $(document).ready(function () {
 		var newPage = this.id;
 		newPage = newPage.replace("_cd", "");
 		
-		if(newPage == "pink" || newPage == "nodoubt"){
+		if(newPage == "pink" || newPage == "onedirection"|| newPage == "nodoubt"){
 			$(".redroom").animate({opacity:0, height:517},500,function(){
 				$("#catgoryHeaderContainer").css("height","550px");	
 				var a=getPage(newPage);
@@ -494,16 +490,6 @@ $(document).ready(function () {
 				hideCD(newPage);
 				closeTray(illuminateRoom(), false)
 			});
-		} else if (newPage == "onedirection") {
-			$(".redroom").animate({opacity:0, height:643},500, function () {
-				$("#catgoryHeaderContainer").css("height","657px");	
-				var a=getPage(newPage);
-				$(".redroom").html(a);
-				hideCD(newPage);
-				closeTray(function () {
-					$(".redroom").animate({opacity:1, height:643},500);	
-				});	
-			});	
 
 		}else if(newPage == "taylor") {
 			window.location = "http://www.target.com/c/taylor-s-picks-ways-to-shop-entertainment/-/N-56f6a";
