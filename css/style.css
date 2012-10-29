@@ -1,12 +1,13 @@
 /** General Room Selectors **/
 /** Target Specific Things **/
-#catgoryHeaderContainer { min-height: 550px !important; }
-.redroom_wrap { position: absolute !important; }
-#catgoryHeaderContainer #categoryHeader { padding-left: 0px !important;margin-left:0px !important; }
+.HeaderGrid {text-align:left !important}
+#catgoryHeaderContainer { min-height: 550px !important; text-align:left !important;}
+.redroom_wrap { position: absolute !important; text-align:left !important;}
+#catgoryHeaderContainer #categoryHeader { padding-left: 0px !important;margin-left:0px !important; text-align:left !important;}
 #catgoryHeaderContainer #categoryHeader span.search-small-text, #catgoryHeaderContainer #categoryHeader h1.search-small-text { margin: 2px 0 0 !important; }
-.exclusive_artists h1 { color: white !important; text-align: left !important; margin:0 !important;padding:0 !important;}
-.exclusive_artists h2 { font-size: 16px !important; letter-spacing: 0px !important; text-align: left !important; margin:0px !important;}
-.exclusive_artists h2, .exclusive_artists h2 a, .exclusive_artists h2 a span {text-transform:lowercase !important;}
+.exclusive_artists h2 { color: white !important; text-align: left !important; margin:0 !important;padding:0 !important; font-size: 28px !important;}
+.exclusive_artists h3 { font-size: 16px !important; letter-spacing: 0px !important; text-align: left !important; margin:0px !important;}
+.exclusive_artists h3, .exclusive_artists h3 a, .exclusive_artists h3 a span {text-transform:lowercase !important; color:#fff;}
 .exclusive_artists ul {list-style-type:none;margin:0 !important; padding:0 !important;}
 .exclusive_artists ul li p { letter-spacing: 0px !important; text-align: left !important; }
 .open_close span.text { font-size: 16px !important; color: white !important;  text-transform:lowercase !important;}
@@ -226,7 +227,7 @@ a#nav_left:hover {background-position:-60px;}
 	background-image:url(http://static.targetimg1.com/ss_redroom/20121022/hor/img/portrait_1.png);
 	width: 95px;
 	height: 121px;
-	left: 130px;
+	left: 160px;
 	top: 32px;
 	padding: 37px 34px 42px 37px;
 }
@@ -297,47 +298,71 @@ top: 56px;
 .r_ball {font-size:12px;position:relative;top:-4px; display: inline !important; color: #fff !important; font-weight: 300 !important;}
 
 /** One Direction Page **/
+
 .onedirectionpage {
 	background-image:url(http://static.targetimg1.com/ss_redroom/20121022/hor/img/bg_1d.jpg);
 	width:100%;
-	height:643px;
+	height:517px;
 	position:relative;
 }
-.redroom .onedirectionpage h4, .redroom .onedirectionpage p, .redroom .onedirectionpage a {margin:0 0 15px 0; padding:0;text-transform:none;text-align:left;letter-spacing: 0px !important;}
+
+#overlay_1d {
+	background:url(http://static.targetimg1.com/ss_redroom/20121022/hor/img/bg_1d_overlay.png) no-repeat 0 bottom;
+	height:517px;
+}
+
+.redroom .onedirectionpage h4, .redroom .onedirectionpage p, .redroom .onedirectionpage a {margin:0 0 13px 0; padding:0;text-transform:none;text-align:left;letter-spacing: 0px !important;}
 .onedirectionpage h4 {font-size:30px;font-weight:600;margin:0 0 0 0 !important;}
 .onedirectionpage p {font-weight:normal;font-size:14px;line-height:16px;text-shadow: none;}
 .onedirectionpage p em {font-style:italic;font-weight:500;}
-.redroom .onedirectionpage a.btn {
+.onedirectionpage p#bold_songs {font-weight:500;}
+.onedirectionpage a.buy_btn {
 	background-image:url(http://static.targetimg1.com/ss_redroom/20121022/hor/img/btn_plus.jpg);
 	background-repeat:no-repeat;
 	background-position: 6px center;
-	padding: 7px 14px 7px 8px;
+	padding: 7px 14px 7px 28px;
 	-webkit-border-radius: 5px;
     border-radius: 5px;
 	background-color:rgb(255,255,255);
 	color:black;
 	text-shadow:none;
 	font-size:12px;
-	margin-bottom:10px;
+	text-indent:0;
+	visibility: visible;
+	line-height:12px !important;
+	position:relative;
+	z-index:1;
 }
-.redroom .onedirectionpage a span {
-	color: #000 !important;
-	padding-left: 20px;
-	line-height: 30px;
-	letter-spacing: 0px !important;
-	display: inline !important;
-}
-.redroom .onedirectionpage .xtra_info {position:absolute;top:317px;left:60px;width:490px;text-align: left;}
-.redroom .onedirectionpage .xtra_info #logo {display: block;padding-bottom:3px;}
+
+
+.onedirectionpage a.buy_btn:active {z-index:1;}
+
+.redroom .onedirectionpage .xtra_info {position:absolute;top: 240px;left: 25px;;width:490px;text-align: left;}
+.redroom .onedirectionpage .xtra_info #logo {display: block;padding-bottom:0px;}
 .redroom .onedirectionpage .xtra_info .album_1d	{float: left;padding-left:5px;padding-right:30px;}
-.redroom .onedirectionpage .xtra_info h4 {padding-top: 4px;}
+.redroom .onedirectionpage .xtra_info h4 {padding-top: 0px;}
+
 .redroom .onedirectionpage #available {padding-top:10px;}
-.redroom .onedirectionpage .video {position:absolute;top:470px;left: 785px;width: 200px;}
+
+.onedirectionpage a span {
+	color: black !important;
+	font-size: 12px !important;
+	line-height:18px !important;
+	letter-spacing:0px !important;
+}
+
+
+.redroom .onedirectionpage .video {position:absolute;top: 425px;left: 650px;width: 300px;text-align:left;}
 .redroom .onedirectionpage .video h4 {
-	padding-bottom: 16px; 
-	line-height: 30px;}
+	line-height: 28px;
+	float: left;
+	display: inline-block;
+	width: 130px;
+	padding-right: 20px;
+	text-align: right;
+}
 .redroom .onedirectionpage .video a.video_1d {
-	display: block;
+	display: inline-block;
 	width: 121px;
 	height: 66px;
 	background: no-repeat top left url(http://static.targetimg1.com/ss_redroom/20121022/hor/img/vid_1d.png);
@@ -415,7 +440,7 @@ top: 56px;
         
         box-shadow:  4px 4px 4px 0px rgba(0, 0, 0, .5);
 }
-.taylorswift .cd_info {width: 590px;height:550px;background:none;float:left;}
+.taylorswift .cd_info {width: 590px;height:550px;background:none;float:left;filter:none;}
 .taylorswift .cd_info .cd_pic p {font-style:italic;font-size:12px;}
 .taylorswift .cd_text {margin-bottom:13px;width: 340px;}
 .taylorswift .cd_text h2 {font-size:33px; font-weight:bold;margin-top:20px;}
@@ -1109,31 +1134,31 @@ a.preorder span {text-transform:uppercase !important;display:inline !important;l
 
 #page #body img {position:relative;top:10px;margin-right:20px;}
 
-a:link
+#page a:link
 { color: #d81f2a; text-decoration: none; }
 
-a:hover, a:active
+#page a:hover, .redroom a:active
 { color: #d81f2a; text-decoration: underline; }
 
-a:visited
+#page a:visited
 { color: #eb8d92; text-decoration: none; }
 
-h1
+#page h1
 { margin-top: 0px; font-size: 16px; text-transform: capitalize; }
 
-h2
+#page h2
 { margin-top: 0px; font-size: 14px; }
 
-h3
+#page h3
 { margin-top: 0px; font-size: 12px; text-transform: capitalize; }
 
-h4
+#page h4
 { margin-top: 0px; font size: 14px; text-transform: capitalize; font-style: normal; font-weight: normal; } 
 
-ol
+#page ol
 { list-style-type: none; }
 
-ol ul
+#page ol ul
 { list-style-type: disc; margin-bottom: 14px; }
 
 #body

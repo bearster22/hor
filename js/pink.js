@@ -1,5 +1,5 @@
+$(document).ready(function() {
 
-$(document).ready(function () {
 	var upOrDown=parseInt(70);
 	$(".slider_bar").slider({
 		orientation:"vertical",
@@ -53,6 +53,6 @@ $(document).ready(function () {
 			next:"#next2",
 			prev:"#prev2",
 			height:"500"
-		})
-	})
-})
+		});
+	});
+});

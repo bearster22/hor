@@ -25,9 +25,12 @@ $(document).ready(function(){
 	});
 	$("#closeButton").click(function(){
 		videoPlayer.close();
+		$("a.buy_btn").css("z-index","100000")
 		$(".redroom_overlay").fadeOut(function(){
-			$(".redroom_overlay").hide()
+			$(".redroom_overlay").hide();
 		});
+		
+
 		return false
 	});
 	

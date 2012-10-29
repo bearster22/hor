@@ -1,3 +1,5 @@
+$(document).ready(function () {
+
 var Blinker;
 
 Blinker = (function() {
@@ -77,3 +79,5 @@ Blinker = (function() {
 
   return Blinker;
 }());
+
+});

@@ -1,4 +1,5 @@
-$(document).ready(function(){
+
+
 	$(".vid_nodoubt").click(function(a){
 		var b=$(".redroom").height();
 		var c=$(".redroom").width();
@@ -23,6 +24,5 @@ $(document).ready(function(){
 			next:"#next2",
 			prev:"#prev2",
 			height:"500"
-		})
-	})
-})
+		});
+	});
