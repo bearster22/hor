@@ -25,19 +25,19 @@ $("#closeButton").click(function(a){
 });
 $("#stream1").click(function(){
 	videoPlayer.playVideo({
-		source:"http://static.targetimg1.com/ss_redroom/20121022/hor/assets/media/nodoubt/behind_the_scenes_bideo/DoDoubt_BTS_1.4mb.flv",
-		captions:"http://static.targetimg1.com/ss_redroom/20121022/hor/assets/xml/nodoubt_exclusive.xml"
+		source:"http://static.targetimg1.com/ss_redroom/20121104/hor/assets/media/nodoubt/behind_the_scenes_video/DoDoubt_BTS_1.4mb.flv",
+		captions:"http://static.targetimg1.com/ss_redroom/20121104/hor/assets/xml/nodoubt_exclusive.xml"
 	});return false
 });
 $("#stream2").click(function(){
 	videoPlayer.playVideo({
-		source:"http://static.targetimg1.com/ss_redroom/20121022/hor/assets/media/nodoubt/broadcast_spot/NoDoubt_BroadcastSpot_1.4mb.flv",
-		captions:"http://static.targetimg1.com/ss_redroom/20121022/hor/assets/xml/nodoubt_broadcast.xml"
+		source:"http://static.targetimg1.com/ss_redroom/20121104/hor/assets/media/nodoubt/broadcast_spot/NoDoubt_BroadcastSpot_1.4mb.flv",
+		captions:"http://static.targetimg1.com/ss_redroom/20121104/hor/assets/xml/nodoubt_broadcast.xml"
 	});return false
 });
 var options={};
 options["autoplay"]="true";
 options["autosize"]="full";
 options["audiodescriptionSourceRatio"]=.5;
-videoPlayer=new TARGET.EverestVideoPlayer("flashcontent","550","400","http://static.targetimg1.com/ss_redroom/20121022/hor/TargetEverestVideoPlayer.swf","videoPlayer",options);
-videoPlayer.playVideo({source:"http://static.targetimg1.com/ss_redroom/20121022/hor/assets/media/nodoubt/behind_the_scenes_video/NoDoubt_BTS_1.4mb.flv",captions:"http://static.targetimg1.com/ss_redroom/20121022/hor/assets/xml/nodoubt_exclusive.xml"})
+videoPlayer=new TARGET.EverestVideoPlayer("flashcontent","550","400","http://static.targetimg1.com/ss_redroom/20121104/hor/TargetEverestVideoPlayer.swf","videoPlayer",options);
+videoPlayer.playVideo({source:"http://static.targetimg1.com/ss_redroom/20121104/hor/assets/media/nodoubt/behind_the_scenes_video/NoDoubt_BTS_1.4mb.flv",captions:"http://static.targetimg1.com/ss_redroom/20121104/hor/assets/xml/nodoubt_exclusive.xml"})

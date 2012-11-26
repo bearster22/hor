@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling">
+  <head>
+    <layout>
+      <region style="defaultSpeaker" xml:id="speaker"></region>
+    </layout>
+    <styling>
+      <style xml:id="defaultSpeaker" tts:fontSize="40px" tts:fontFamily="Arial Bold" tts:fontWeight="normal" tts:fontStyle="normal" tts:textDecoration="none" tts:color="white" tts:backgroundColor="black" tts:textAlign="center" tts:origin="10% 85%" tts:extent="80% 10%" />
+      <style xml:id="defaultCaption" tts:fontSize="40px" tts:fontFamily="Arial Bold" tts:fontWeight="normal" tts:fontStyle="normal" tts:textDecoration="none" tts:color="white" tts:backgroundColor="black" tts:textAlign="center" tts:origin="10% 85%" tts:extent="80% 10%" />
+    </styling>
+  </head>
+  <body style="defaultCaption" xml:id="thebody">
+    <div xml:lang="en">
+      <p begin="00:00:00.00" end="00:00:00.50" region="speaker"><metadata ccrow="0" cccol="0"/></p>
+      <p begin="00:00:00.50" end="00:00:01.17" region="speaker"><metadata ccrow="0" cccol="0"/></p>
+      <p begin="00:00:01.17" end="00:00:04.33" region="speaker" tts:textAlign="right"><metadata ccrow="0" cccol="30"/>♪♪</p>
+      <p begin="00:00:04.33" end="00:00:10.83" region="speaker"><metadata ccrow="13" cccol="4"/>♪ Have yourself a merry<br></br>little Christmas, ♪</p>
+      <p begin="00:00:10.83" end="00:00:15.50" region="speaker"><metadata ccrow="14" cccol="2"/>♪ Make the Yule-tide gay, ♪</p>
+      <p begin="00:00:15.50" end="00:00:17.50" region="speaker"><metadata ccrow="0" cccol="0"/></p>
+      <p begin="00:00:17.50" end="00:00:20.00" region="speaker"><metadata ccrow="14" cccol="8"/>♪ From now on, ♪</p>
+      <p begin="00:00:20.00" end="00:00:25.50" region="speaker"><metadata ccrow="13" cccol="6"/>♪ our troubles will<br></br>be miles away. ♪</p>
+      <p begin="00:00:25.50" end="00:00:28.83" region="speaker"><metadata ccrow="0" cccol="2"/>Get Rod Stewart&apos;s new album,<br></br>with 3 exclusive tracks.</p>
+      <p begin="00:00:28.83" end="00:00:29.97" region="speaker"><metadata ccrow="0" cccol="8"/>Only at Target.</p>
+      <p begin="00:00:29.97" end="00:00:32.97" region="speaker"><metadata ccrow="0" cccol="0"/></p>
+    </div>
+  </body>
+</tt>

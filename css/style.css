@@ -1,18 +1,18 @@
 /** General Room Selectors **/
 /** Target Specific Things **/
 .HeaderGrid {text-align:left !important}
-#catgoryHeaderContainer { min-height: 550px !important; text-align:left !important;}
+/*#catgoryHeaderContainer { min-height: 550px !important; text-align:left !important;}*/
 .redroom_wrap { position: absolute !important; text-align:left !important;}
-#catgoryHeaderContainer #categoryHeader { padding-left: 0px !important;margin-left:0px !important; text-align:left !important;}
-#catgoryHeaderContainer #categoryHeader span.search-small-text, #catgoryHeaderContainer #categoryHeader h1.search-small-text { margin: 2px 0 0 !important; }
+/*#catgoryHeaderContainer #categoryHeader { padding-left: 0px !important;margin-left:0px !important; text-align:left !important;}
+#catgoryHeaderContainer #categoryHeader span.search-small-text, #catgoryHeaderContainer #categoryHeader h1.search-small-text { margin: 2px 0 0 !important; }*/
 .exclusive_artists h2 { color: white !important; text-align: left !important; margin:0 !important;padding:0 !important; font-size: 28px !important;}
 .exclusive_artists h3 { font-size: 16px !important; letter-spacing: 0px !important; text-align: left !important; margin:0px !important;}
-.exclusive_artists h3, .exclusive_artists h3 a, .exclusive_artists h3 a span {text-transform:lowercase !important; color:#fff;}
+.exclusive_artists h3, .exclusive_artists h3 a, .exclusive_artists h3 a span {text-transform:lowercase !important; color:#fff !important;text-decoration: none;}
 .exclusive_artists ul {list-style-type:none;margin:0 !important; padding:0 !important;}
 .exclusive_artists ul li p { letter-spacing: 0px !important; text-align: left !important; }
 .open_close span.text { font-size: 16px !important; color: white !important;  text-transform:lowercase !important;}
-.gridTemplate { min-height: 10px !important; }
-.components-test .gridTemplate .x0y0.w4 { display: none !important; }
+.gridTemplate { min-height: 10px !important; margin:0 !important; top: -100px;}
+.components-test .gridTemplate .x0y0.w4 { display: block; height:450px; position:relative;top:-122px;left:-19px;border-bottom:none !important;}
 .redroom .cd_info p {text-transform:none !important;}
 
 /** General Room Styles **/
@@ -25,7 +25,7 @@
 	/** temp **/
 	min-height:517px;
 	top:100px;
-	background-image: url(http://static.targetimg1.com/ss_redroom/20121022/hor/img/ajax-loader.gif);
+	background-image: url(http://static.targetimg1.com/ss_redroom/20121205/hor/img/ajax-loader.gif);
 }
 .redroom {
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
@@ -63,7 +63,7 @@
 	left:28px;
 	height:102px; width:137px;
 	z-index:100;
-	background: url(http://static.targetimg1.com/ss_redroom/20121022/hor/img/logo_target.png) no-repeat scroll center center;
+	background: url(http://static.targetimg1.com/ss_redroom/20121205/hor/img/logo_target.png) no-repeat scroll center center;
 }
 
 a#pandora_bar {
@@ -71,7 +71,7 @@ a#pandora_bar {
 	position:relative;
 	height:33px;
 	width:950px;
-	background:url(http://static.targetimg1.com/ss_redroom/20121022/hor/img/btn_pandora.jpg) no-repeat scroll center center;
+	background:url(http://static.targetimg1.com/ss_redroom/20121205/hor/img/btn_pandora.jpg) no-repeat scroll center center;
 	text-indent:-9999px;
 	z-index:1000;
 }
@@ -79,7 +79,7 @@ a#pandora_bar {
 /** End General Room Styles **/
 
 /** Front Door Styles **/
-.redroom.landing {background-image:url(http://static.targetimg1.com/ss_redroom/20121022/hor/img/front_door.jpg);}
+.redroom.landing {background-image:url(http://static.targetimg1.com/ss_redroom/20121205/hor/img/front_door.jpg);}
 .redroom.landing {}
 .redroom_overlay {display:none;top:100px;}
 .intro {
@@ -108,7 +108,7 @@ a#pandora_bar {
 	background-repeat: no-repeat;
 	background-position: -1px -1px;
 	position: absolute;
-	background-image: url(http://static.targetimg1.com/ss_redroom/20121022/hor/img/actual_door.jpg);
+	background-image: url(http://static.targetimg1.com/ss_redroom/20121205/hor/img/actual_door.jpg);
 	background-size: cover;
 	}
 
@@ -117,7 +117,7 @@ a#pandora_bar {
 .lobby {
 	position:absolute;
 	top:0;left:-1376px;
-	background-image:url(http://static.targetimg1.com/ss_redroom/20121022/hor/img/bg_lobby.jpg);
+	background-image:url(http://static.targetimg1.com/ss_redroom/20121205/hor/img/bg_lobby.jpg);
 	background-repeat:no-repeat; 
 	background-position:center top;
 	width:3275px;height:inherit;
@@ -128,8 +128,8 @@ a.nav_btn {
 	background-position:-60px top;background-size:200%;text-indent:-9999px;background-repeat:no-repeat;
 }
 a.nav_btn:hover {background-position:0px top;}
-a#nav_right {right:10px;background-image:url(http://static.targetimg1.com/ss_redroom/20121022/hor/img/btn_r_nav.png);}
-a#nav_left {background-position:0px;left:10px;background-image:url(http://static.targetimg1.com/ss_redroom/20121022/hor/img/btn_l_nav.png);}
+a#nav_right {right:10px;background-image:url(http://static.targetimg1.com/ss_redroom/20121205/hor/img/btn_r_nav.png);}
+a#nav_left {background-position:0px;left:10px;background-image:url(http://static.targetimg1.com/ss_redroom/20121205/hor/img/btn_l_nav.png);}
 a#nav_left:hover {background-position:-60px;}
 
 .door {
@@ -141,7 +141,7 @@ a#nav_left:hover {background-position:-60px;}
 }
 .portrait {
 	display:block;
-	position:absolute;
+	position:absolute !important;
 	text-indent:-9999px;
 	background-repeat:no-repeat;
 	
@@ -151,11 +151,13 @@ a#nav_left:hover {background-position:-60px;}
 	text-indent:0px;
 	display:block;
 	background-color: white;
-	height: 27px;
+	color: #fff !important;
+	height: 16px !important;
 	width:94px;
-	margin-left:3px;
+	margin-left:7px !important;
 	border-radius: 5px;
-	margin-top:14px;
+	margin-top:10px;
+	padding-top:10px;
 	border-top: 1px solid rgb(143,143,143);
 	border-bottom: 1px solid ;
 	text-align: center;
@@ -184,17 +186,17 @@ a#nav_left:hover {background-position:-60px;}
 .portrait a span {
 	color:black !important;
 	font-size:10px;
-	padding:11px 10px 11px 23px;
+	padding:11px 3px 11px 23px;
 	position: relative;
 	top: 2px;
 	text-shadow: none;
-	background-image: url(http://static.targetimg1.com/ss_redroom/20121022/hor/img/btn_plus.png);
+	background-image: url(http://static.targetimg1.com/ss_redroom/20121205/hor/img/btn_plus.png);
 	background-repeat: no-repeat;
 	background-position: 4px center;
 }
 .portrait p {text-indent:0px;font-size:12px;text-align:center;padding:0px;margin: 6px auto 10px auto;font-weight:bold;text-transform:lowercase;}
 .portrait#tony_bennet {
-	background-image: url(http://static.targetimg1.com/ss_redroom/20121022/hor/img/portrait_bennet.png);
+	background-image: url(http://static.targetimg1.com/ss_redroom/20121205/hor/img/portrait_bennet.png);
 	width: 106px;
 	height: 150px;
 	left: 414px;
@@ -206,7 +208,7 @@ a#nav_left:hover {background-position:-60px;}
 .portrait#tony_bennet:hover {
 	background-position:-187px 0px;;	
 }
-.portrait#tony_bennet a.buy_btn { margin-left:7px; }
+.portrait#tony_bennet a.buy_btn { margin-left:7px;width:94px !important;}
 .portrait .movie_open {
 	display:block;
 	height:42px;
@@ -214,49 +216,100 @@ a#nav_left:hover {background-position:-60px;}
 	background-repeat:no-repeat;
 	margin: 20px auto 0px auto;
 }
-.redroom .lobby .portrait > * {display:none;}
-.redroom .lobby .portrait.clicked > * {display:block;visibility:visible;}
+.redroom .lobby .portrait > * {display:none !important;}
+.redroom .lobby .portrait.clicked > * {display:block !important;visibility:visible !important;}
 #tony_bennet .movie_open {
-		background-image:url(http://static.targetimg1.com/ss_redroom/20121022/hor/img/movie_bennet.jpg);
+		background-image:url(http://static.targetimg1.com/ss_redroom/20121205/hor/img/movie_bennet.jpg);
 		margin-left:3px;
 		margin-left: 14px;
 		margin-top: 32px;
 	}
 #tony_bennet .movie_open:hover {background-position:-80px;}
-.portrait#coming_1 {
-	background-image:url(http://static.targetimg1.com/ss_redroom/20121022/hor/img/portrait_1.png);
+#rod_stewart {
+	background-image:url(http://static.targetimg1.com/ss_redroom/20121205/hor/img/portrait_rod.png);
 	width: 95px;
 	height: 121px;
 	left: 160px;
 	top: 32px;
 	padding: 37px 34px 42px 37px;
 }
-.portrait#coming_1:hover {background-position:-168px 0px;}
-.portrait#coming_2 {
-	background-image:url(http://static.targetimg1.com/ss_redroom/20121022/hor/img/portrait_2.png);
+.portrait#rod_stewart.clicked, .portrait#rod_stewart.clicked:hover {background-position:-335px 0px;}
+.portrait#rod_stewart:hover {background-position:-168px 0px;}
+
+#rod_stewart .movie_open {
+		background-image:url(http://static.targetimg1.com/ss_redroom/20121205/hor/img/movie_rod.jpg);
+		margin-left:7px;
+		margin-top: 7px;
+	}
+	
+	
+#rod_stewart .movie_open:hover {background-position:-80px;}
+
+#rod_stewart p {margin:6px auto;}
+
+#rod_stewart a {width:90px !important;margin-left:3px !important;}
+
+
+.portrait#andre_rieu {
+	background-image:url(http://static.targetimg1.com/ss_redroom/20121205/hor/img/portrait_andre.png);
 	width: 116px;
 	height: 80px;
 	left: 200px;
 	top: 221px;
 	padding: 48px 50px 52px 48px;
 }
-.portrait#coming_2:hover {background-position:-212px 0px;}
-.portrait#coming_3 {
-	background-image:url(http://static.targetimg1.com/ss_redroom/20121022/hor/img/portrait_3.png);
+.portrait#andre_rieu.clicked, .portrait#andre_rieu.clicked:hover {background-position:-424px 0px;}
+.portrait#andre_rieu:hover {background-position:-212px 0px;}
+
+#andre_rieu .movie_open {
+		background-image:url(http://static.targetimg1.com/ss_redroom/20121205/hor/img/movie-andre.jpg);
+		width:66px;
+		height:33px;
+		margin-left:26px;
+		margin-top: 0px;
+	}
+	
+#andre_rieu p {margin:3px auto;}
+
+#andre_rieu a {margin-top:6px;margin-left:12px !important; width:94px !important;}
+#andre_rieu a span {padding: 8px 10px 8px 23px;}
+	
+#andre_rieu .movie_open:hover {background-position:-66px;}
+
+.portrait#bruno_mars {
+	background-image:url(http://static.targetimg1.com/ss_redroom/20121205/hor/img/portrait_bruno.png);
 	width: 177px;
 	height: 82px;
 	left: 326px;
 	top: 42px;
 	padding: 41px 50px 51px 50px;
 }
-.portrait#coming_3:hover {background-position:-274px 0px;}
+.portrait#bruno_mars:hover {background-position:-279px 0px;}
+
+.portrait#bruno_mars.clicked, .portrait#bruno_mars.clicked:hover {background-position:-554px 0px;}
+
+#bruno_mars a {width: 110px !important; margin-left: 30px !important; margin-top:5px;}
+
+#bruno_mars a span {padding-left:28px; background-position: 6px center;}
+
+#bruno_mars .movie_open {
+		background-image:url(http://static.targetimg1.com/ss_redroom/20121205/hor/img/movie_bruno.jpg);
+		margin-left:57px;
+		margin-top: 5px;
+		margin-bottom:2px;
+		height:33px;
+		width:60px;
+	}
+	
+#bruno_mars .movie_open:hover {background-position:-60px;}
+
 
 #nodoubt_door {
 	left: 632px;
 	height: inherit;
 	width: 673px;
 	top: 0px;
-	/**background: url(http://static.targetimg1.com/ss_redroom/20121022/hor/img/door_no_doubt.png) no-repeat scroll 89px 67px;**/
+	/**background: url(http://static.targetimg1.com/ss_redroom/20121205/hor/img/door_no_doubt.png) no-repeat scroll 89px 67px;**/
 	cursor:pointer;
 }
 #taylor_door {
@@ -300,16 +353,33 @@ top: 56px;
 /** One Direction Page **/
 
 .onedirectionpage {
-	background-image:url(http://static.targetimg1.com/ss_redroom/20121022/hor/img/bg_1d.jpg);
+	background-image:url(http://static.targetimg1.com/ss_redroom/20121205/hor/img/bg-1d-bw.jpg);
+	background-position:50% 50%;
 	width:100%;
 	height:517px;
 	position:relative;
 }
 
-#overlay_1d {
-	background:url(http://static.targetimg1.com/ss_redroom/20121022/hor/img/bg_1d_overlay.png) no-repeat 0 bottom;
+#onedirection_color {
+	background-image:url(http://static.targetimg1.com/ss_redroom/20121205/hor/img/bg-1d-color.jpg);
 	height:517px;
+	background-position:50% 50%;
+	opacity:0;
 }
+
+#overlay_1d {
+	background:url(http://static.targetimg1.com/ss_redroom/20121205/hor/img/bg_1d_overlay_lg.png) no-repeat 50% 0;
+	height:517px;
+	position: relative;
+	bottom:285px;
+	width:1400px;
+	left:-225px;
+	
+}
+
+.button_1d {position:relative;height:140px; width:140px;display:block;bottom:900px; left:500px;cursor:pointer;}
+.button_1d #button_text {background-image:url(http://static.targetimg1.com/ss_redroom/20121205/hor/img/btn-1d-more.png); background-position: 50% 50%;display: block;height: 140px;width: 140px;}
+.button_1d #button_click {background-image:url(http://static.targetimg1.com/ss_redroom/20121205/hor/img/btn-1d.png); background-position: 50% 50%;display: block;height: 140px;width: 140px;position:relative; bottom:140px;}
 
 .redroom .onedirectionpage h4, .redroom .onedirectionpage p, .redroom .onedirectionpage a {margin:0 0 13px 0; padding:0;text-transform:none;text-align:left;letter-spacing: 0px !important;}
 .onedirectionpage h4 {font-size:30px;font-weight:600;margin:0 0 0 0 !important;}
@@ -317,21 +387,24 @@ top: 56px;
 .onedirectionpage p em {font-style:italic;font-weight:500;}
 .onedirectionpage p#bold_songs {font-weight:500;}
 .onedirectionpage a.buy_btn {
-	background-image:url(http://static.targetimg1.com/ss_redroom/20121022/hor/img/btn_plus.jpg);
+	background-image:url(http://static.targetimg1.com/ss_redroom/20121205/hor/img/btn_plus.jpg);
 	background-repeat:no-repeat;
 	background-position: 6px center;
-	padding: 7px 14px 7px 28px;
+	padding: 8px 10px 14px 28px;
 	-webkit-border-radius: 5px;
     border-radius: 5px;
+	margin-top:10px;
+	width:90px !important;
 	background-color:rgb(255,255,255);
-	color:black;
+	color:black !important;
 	text-shadow:none;
 	font-size:12px;
+	height:12px !important;
 	text-indent:0;
-	visibility: visible;
-	line-height:12px !important;
+	visibility: visible !important;
 	position:relative;
 	z-index:1;
+	margin-left: 150px;
 }
 
 
@@ -352,22 +425,29 @@ top: 56px;
 }
 
 
-.redroom .onedirectionpage .video {position:absolute;top: 425px;left: 650px;width: 300px;text-align:left;}
-.redroom .onedirectionpage .video h4 {
+.redroom .onedirectionpage .video, .redroom .onedirectionpage .extras {display:inline-block;width:170px;position:relative; left:1000px;bottom:720px;}
+.redroom .onedirectionpage h4 {
 	line-height: 28px;
-	float: left;
-	display: inline-block;
-	width: 130px;
-	padding-right: 20px;
-	text-align: right;
+	padding-bottom:10px;
+	color: #fff !important;
 }
-.redroom .onedirectionpage .video a.video_1d {
-	display: inline-block;
+.redroom .onedirectionpage a.video_1d {
+	display: block;
 	width: 121px;
 	height: 66px;
-	background: no-repeat top left url(http://static.targetimg1.com/ss_redroom/20121022/hor/img/vid_1d.png);
+	background: no-repeat top left url(http://static.targetimg1.com/ss_redroom/20121205/hor/img/vid_1d.png);
 }
 .redroom .onedirectionpage .video a.video_1d:hover {background-position: -121px 0;}
+
+.redroom .onedirectionpage a.extras_1d {
+	display: block;
+	width: 121px;
+	height: 66px;
+	background: no-repeat top left url(http://static.targetimg1.com/ss_redroom/20121205/hor/img/extras_1d.jpg);
+}
+
+.redroom .onedirectionpage a.extras_1d:hover {background-position: -121px 0;}
+
 
 /** End One Direction Page **/
 
@@ -401,9 +481,9 @@ top: 56px;
 }
 .redroom_overlay #player_btns {width:550px;}
 .redroom_overlay #player_btns .btn.close, .redroom_overlay #player_btns .btn.play, .redroom_overlay #player_btns .btn.stop, .redroom_overlay #player_btns .pause {display:none;} 
-.redroom_overlay #playButton {background-image:url(http://static.targetimg1.com/ss_redroom/20121022/hor/img/play.png);}
-.redroom_overlay #stopButton {background-image:url(http://static.targetimg1.com/ss_redroom/20121022/hor/img/stop.png);}
-.redroom_overlay #pauseButton {background-image:url(http://static.targetimg1.com/ss_redroom/20121022/hor/img/pause.png);}
+.redroom_overlay #playButton {background-image:url(http://static.targetimg1.com/ss_redroom/20121205/hor/img/play.png);}
+.redroom_overlay #stopButton {background-image:url(http://static.targetimg1.com/ss_redroom/20121205/hor/img/stop.png);}
+.redroom_overlay #pauseButton {background-image:url(http://static.targetimg1.com/ss_redroom/20121205/hor/img/pause.png);}
 .redroom_overlay #closeButton.close.btn {
 	top: 38px;
 	height: 0;
@@ -430,8 +510,11 @@ top: 56px;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 
 }
+
+.redroom_overlay .vid_window_larger #stream1, .redroom_overlay .vid_window_larger #stream2 {margin-top:10px;}
+
 /** Taylors CD Information **/
-.taylorswift {position:absolute;width:100%;height:100%;background:url(http://static.targetimg1.com/ss_redroom/20121022/hor/img/bg_taylor.jpg) no-repeat;background-size:cover;}
+.taylorswift {position:absolute;width:100%;height:100%;background:url(http://static.targetimg1.com/ss_redroom/20121205/hor/img/bg_taylor.jpg) no-repeat;background-size:cover;}
 .taylorswift img.logo {margin-top:110px;}
 
 .taylorswift .cd_pic {margin-top:20px;margin-left: 20px;width:150px;height:37px;}
@@ -473,7 +556,7 @@ top: 56px;
 	width:100%;
 	height:100%;
 	z-index:1;
-	background-image:url(http://static.targetimg1.com/ss_redroom/20121022/hor/img/bg_pink.jpg);
+	background-image:url(http://static.targetimg1.com/ss_redroom/20121205/hor/img/bg_pink.jpg);
 	background-size:cover;
 	background-position:center;
 }
@@ -604,7 +687,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 	font-size:33px;
 	font-weight:bold;
 	margin:13px 0 0px 0;
-	color:rgb(255,255,255);
+	color:rgb(255,255,255) !important;
 	float:left;width:100%;
 	text-align: left;
     text-transform: lowercase;
@@ -637,8 +720,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 	font-size:13px;
 	display:block;
 	line-height: 32px;
-	color:rgb(255,255,255);
-	background:url(http://static.targetimg1.com/ss_redroom/20121022/hor/img/btn_preorder.png) no-repeat scroll -2px 2px;
+	color: #fff !important;
+	background:url(http://static.targetimg1.com/ss_redroom/20121205/hor/img/btn_preorder.png) no-repeat scroll -2px 2px;
 	background-size:cover;
 	text-transform:lowercase;
 }
@@ -658,7 +741,7 @@ a.preorder span {text-transform:uppercase !important;display:inline !important;l
 .exclusive_media a.vid:hover, .digital_downloads a.vid:hover {	
 	background-position:-125px;
 }
-.exclusive_media .vid_pink_1 {background-image:url(http://static.targetimg1.com/ss_redroom/20121022/hor/img/vid_pink_1.jpg);}
+.exclusive_media .vid_pink_1 {background-image:url(http://static.targetimg1.com/ss_redroom/20121205/hor/img/vid_pink_1.jpg);}
 .exclusive_media a.pic {
 	display:block;
 	float:left;
@@ -669,10 +752,10 @@ a.preorder span {text-transform:uppercase !important;display:inline !important;l
 	background-position:0px 0px;
 }
 .exclusive_media a.pic:hover {background-position:-125px;}
-.exclusive_media .pic_pink {background-image:url(http://static.targetimg1.com/ss_redroom/20121022/hor/img/pic_pink.jpg);}
+.exclusive_media .pic_pink {background-image:url(http://static.targetimg1.com/ss_redroom/20121205/hor/img/pic_pink.jpg);}
 
 
-.digital_pic {background-image:url(http://static.targetimg1.com/ss_redroom/20121022/hor/img/download_pink.jpg);}
+.digital_pic {background-image:url(http://static.targetimg1.com/ss_redroom/20121205/hor/img/download_pink.jpg);}
 
 /** Target Floating Link **/
 
@@ -687,13 +770,13 @@ a.preorder span {text-transform:uppercase !important;display:inline !important;l
 	position:absolute;
 	left:86px;
 	top:166px;
-	background:url(http://static.targetimg1.com/ss_redroom/20121022/hor/img/bg_slider_bar.png) no-repeat scroll center center;
+	background:url(http://static.targetimg1.com/ss_redroom/20121205/hor/img/bg_slider_bar.png) no-repeat scroll center center;
 	z-index:6;
 }
 .ui-slider-handle.ui-state-default.ui-corner-all {
 	background:transparent;
 	border:none;
-	background-image:url(http://static.targetimg1.com/ss_redroom/20121022/hor/img/bg_slider.png);
+	background-image:url(http://static.targetimg1.com/ss_redroom/20121205/hor/img/bg_slider.png);
 	background-repeat:no-repeat;
 	cursor:pointer;
 	height:59px;
@@ -780,7 +863,7 @@ a.preorder span {text-transform:uppercase !important;display:inline !important;l
     border-radius: 4px 4px 0px 0px;	
 	
 	background-color: rgb(181,38,24); 
-	background-image:url(http://static.targetimg1.com/ss_redroom/20121022/hor/img/bg_shadow.png);
+	background-image:url(http://static.targetimg1.com/ss_redroom/20121205/hor/img/bg_shadow.png);
 	background-repeat: repeat-x;
 	background-position:bottom center;
 	
@@ -806,7 +889,7 @@ a.preorder span {text-transform:uppercase !important;display:inline !important;l
 	font-weight:600;
 }
 
-.exclusive_artists h2 a {background:url(http://static.targetimg1.com/ss_redroom/20121022/hor/img/img_arrow.png) no-repeat scroll right 3px;padding-right:30px;color:white;}
+.exclusive_artists h2 a {background:url(http://static.targetimg1.com/ss_redroom/20121205/hor/img/img_arrow.png) no-repeat scroll right 3px;padding-right:30px;color:white;}
 .exclusive_artists h2 a.upcoming {background:none; cursor: text;}
 .exclusive_artists p {font-size:14px;font-weight:200;margin-top:3px;margin-left:2px;}
 .exclusive_artists ul li .bar {width: 92%;padding:0 1% 0 1%;}
@@ -823,7 +906,7 @@ a.preorder span {text-transform:uppercase !important;display:inline !important;l
 	-webkit-box-shadow:  0px 2px 2px 1px rgba(0, 0, 0, .3);
 	box-shadow:  0px 2px 2px 1px rgba(0, 0, 0, .3);
 	margin-right:10px;
-	background-image:url(http://static.targetimg1.com/ss_redroom/20121022/hor/img/cd_upcoming.jpg);
+	background-image:url(http://static.targetimg1.com/ss_redroom/20121205/hor/img/cd_upcoming.jpg);
 }
 
 
@@ -839,13 +922,13 @@ a.preorder span {text-transform:uppercase !important;display:inline !important;l
 	margin-top:2px;
 	height:16px;
 	width:15px;
-	background:url(http://static.targetimg1.com/ss_redroom/20121022/hor/img/btn_cross.png) no-repeat scroll left center;
+	background:url(http://static.targetimg1.com/ss_redroom/20121205/hor/img/btn_cross.png) no-repeat scroll left center;
 	background-position:-15px;
 }
 /** End Popup CSS Declarations **/
 
 /** Gallery CSS **/
-.redroom_overlay .cycle_gallery img {width:550px;height:auto;visibility:visible !important;}
+.redroom_overlay .cycle_gallery img {width:550px !important;height:370px !important;visibility:visible !important;}
 .cycle_gallery {float:left;}
 .cycle_wrap { 
 	position:relative;
@@ -1105,15 +1188,15 @@ a.preorder span {text-transform:uppercase !important;display:inline !important;l
 
 .vid_nodoubt {
   width: 120px;
-  background: url(http://static.targetimg1.com/ss_redroom/20121022/hor/img/nodoubt/vids.png);
+  background: url(http://static.targetimg1.com/ss_redroom/20121205/hor/img/nodoubt/vids.png);
 }
 .pic_nodoubt {
   width: 65px;
-  background: url(http://static.targetimg1.com/ss_redroom/20121022/hor/img/nodoubt/pics.png);
+  background: url(http://static.targetimg1.com/ss_redroom/20121205/hor/img/nodoubt/pics.png);
 }
 .digital_nodoubt {
   width: 121px;
-  background: url(http://static.targetimg1.com/ss_redroom/20121022/hor/img/nodoubt/digital.png);
+  background: url(http://static.targetimg1.com/ss_redroom/20121205/hor/img/nodoubt/digital.png);
 }
 
 .nodoubtpage .cd_info .exclusive h2, .nodoubtpage .cd_info .digital h2 {

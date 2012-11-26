@@ -1,5 +1,3 @@
-$(document).ready(function(){
-
   $(".neon").each(function(){
     // why doesn't $(this).data('numframes') work?
     var frames = $(this).attr('data-numframes');
@@ -27,7 +25,7 @@ $(document).ready(function(){
     $("#frame_1").fadeOut();
     $("#frame_2").fadeIn();
     $(".redroom").css("height", "904px");	
-	$("#catgoryHeaderContainer").css("height", "950px");
+	$(".x0y0.w4").css("height", "850px");
     $('.nodoubtpage #extras').animate({
       left: 328
     }, 1000, function () {
@@ -39,11 +37,10 @@ $(document).ready(function(){
     $("#frame_2").fadeOut();
     $("#frame_1").fadeIn();
     $(".redroom").css("height", "517px");
-	$("#catgoryHeaderContainer").css("height", "550px");
+	$(".x0y0.w4").css("height", "450px");
     $('.nodoubtpage #extras').animate({
       left: 1000
     }, 1000, function () {
 			
 	});
   });
-});

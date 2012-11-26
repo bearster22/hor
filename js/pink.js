@@ -13,7 +13,7 @@ $(document).ready(function() {
 				$(".exclusive_media, .digital_downloads").slideUp();
 				$(".scalable").addClass("one");
 				$(".redroom, .pink_space").css("height","517px");
-				$("#catgoryHeaderContainer").css("height", "550px");
+				$(".x0y0.w4").css("height", "450px");
 				upOrDown=70
 			}else{
 				$(".slider_bar").slider("option","value",0);
@@ -23,7 +23,7 @@ $(document).ready(function() {
 				$(".slider_bar").slider("option","value",0);
 				$(".scalable").addClass("three");
 				$(".redroom, .pink_space").css("height","900px");
-				$("#catgoryHeaderContainer").css("height", "950px");
+				$(".x0y0.w4").css("height", "850px");
 				upOrDown=30
 			}
 		}

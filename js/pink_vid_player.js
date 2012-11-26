@@ -32,15 +32,15 @@ $(document).ready(function(){
 	});
 	$("#stream1").click(function(){
 		videoPlayer.playVideo({
-			source:"http://static.targetimg1.com/ss_redroom/20121022/hor/assets/media/pink_exclusive_final.flv",
-			captions:"http://static.targetimg1.com/ss_redroom/20121022/hor/assets/xml/pink_exclusive.xml"
+			source:"http://static.targetimg1.com/ss_redroom/20121104/hor/assets/media/pink_exclusive_final.flv",
+			captions:"http://static.targetimg1.com/ss_redroom/20121104/hor/assets/xml/pink_exclusive.xml"
 		});
 		return false
 	});
 	$("#stream2").click(function(){
 		videoPlayer.playVideo({
-			source:"http://static.targetimg1.com/ss_redroom/20121022/hor/assets/media/pink_broadcast_final.flv",
-			captions:"http://static.targetimg1.com/ss_redroom/20121022/hor/assets/xml/pink_broadcast.xml"
+			source:"http://static.targetimg1.com/ss_redroom/20121104/hor/assets/media/pink_broadcast_final.flv",
+			captions:"http://static.targetimg1.com/ss_redroom/20121104/hor/assets/xml/pink_broadcast.xml"
 		});
 		return false
 	});
@@ -48,9 +48,9 @@ $(document).ready(function(){
 	a["autoplay"]="true";
 	a["autosize"]="full";
 	a["audiodescriptionSourceRatio"]=.5;
-	videoPlayer=new TARGET.EverestVideoPlayer("flashcontent","550","400","http://static.targetimg1.com/ss_redroom/20121022/hor/TargetEverestVideoPlayer.swf","videoPlayer",a);
+	videoPlayer=new TARGET.EverestVideoPlayer("flashcontent","550","400","http://static.targetimg1.com/ss_redroom/20121104/hor/TargetEverestVideoPlayer.swf","videoPlayer",a);
 	videoPlayer.playVideo({
-		source:"http://static.targetimg1.com/ss_redroom/20121022/hor/assets/media/pink_exclusive_final.flv",
-		captions:"http://static.targetimg1.com/ss_redroom/20121022/hor/assets/xml/pink_exclusive.xml"
+		source:"http://static.targetimg1.com/ss_redroom/20121104/hor/assets/media/pink_exclusive_final.flv",
+		captions:"http://static.targetimg1.com/ss_redroom/20121104/hor/assets/xml/pink_exclusive.xml"
 	})
 })

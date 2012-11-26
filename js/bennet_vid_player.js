@@ -30,5 +30,5 @@ options["autoplay"]="true";
 options["autosize"]="full";
 options["audiodescriptionSourceRatio"]=.5;
 console.log(TARGET);
-videoPlayer=new TARGET.EverestVideoPlayer("flashcontent","550","400","http://static.targetimg1.com/ss_redroom/20121022/hor/TargetEverestVideoPlayer.swf","videoPlayer",options);
-videoPlayer.playVideo({source:"http://static.targetimg1.com/ss_redroom/20121022/hor/assets/media/tony_exclusive_final.flv",captions:"http://static.targetimg1.com/ss_redroom/20121022/hor/assets/xml/tony_exclusive.xml"})
+videoPlayer=new TARGET.EverestVideoPlayer("flashcontent","550","400","http://static.targetimg1.com/ss_redroom/20121104/hor/TargetEverestVideoPlayer.swf","videoPlayer",options);
+videoPlayer.playVideo({source:"http://static.targetimg1.com/ss_redroom/20121104/hor/assets/media/tony_exclusive_final.flv",captions:"http://static.targetimg1.com/ss_redroom/20121104/hor/assets/xml/tony_exclusive.xml"})

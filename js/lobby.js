@@ -30,11 +30,11 @@ $(".door").each(function(a){
 		$("#"+this.id+" img").each(function(index){
 			var b=$(this).attr("class");
 			if(a+1==amtDoors){
-				$(this).attr("src","http://static.targetimg1.com/ss_redroom/20121022/hor/img/"+that.id.replace("_door","")+"_"+b+".jpg").load(function(){
+				$(this).attr("src","http://static.targetimg1.com/ss_redroom/20121104/hor/img/"+that.id.replace("_door","")+"_"+b+".jpg").load(function(){
 					isLoaded=true
 				})
 			}else{
-				$(this).attr("src","http://static.targetimg1.com/ss_redroom/20121022/hor/img/"+that.id.replace("_door","")+"_"+b+".jpg")
+				$(this).attr("src","http://static.targetimg1.com/ss_redroom/20121104/hor/img/"+that.id.replace("_door","")+"_"+b+".jpg")
 			}
 		})
 	}

@@ -1,2 +1,2 @@
 $(".redroom,.pink_room").css("height","517px");
-$("catgoryHeaderContainer").css("height", "550px");
+$(".x0y0.w4").css("height", "450px");

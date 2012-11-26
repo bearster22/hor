@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling">
+  <head>
+    <layout>
+      <region style="defaultSpeaker" xml:id="speaker"></region>
+    </layout>
+    <styling>
+      <style xml:id="defaultSpeaker" tts:fontSize="40px" tts:fontFamily="Arial Bold" tts:fontWeight="normal" tts:fontStyle="normal" tts:textDecoration="none" tts:color="white" tts:backgroundColor="black" tts:textAlign="center" tts:origin="10% 85%" tts:extent="80% 10%" />
+      <style xml:id="defaultCaption" tts:fontSize="40px" tts:fontFamily="Arial Bold" tts:fontWeight="normal" tts:fontStyle="normal" tts:textDecoration="none" tts:color="white" tts:backgroundColor="black" tts:textAlign="center" tts:origin="10% 85%" tts:extent="80% 10%" />
+    </styling>
+  </head>
+  <body style="defaultCaption" xml:id="thebody">
+    <div xml:lang="en">
+      <p begin="00:00:00.00" end="00:00:00.33" region="speaker"><metadata ccrow="0" cccol="0"/></p>
+      <p begin="00:00:00.33" end="00:00:00.67" region="speaker"><metadata ccrow="0" cccol="0"/></p>
+      <p begin="00:00:00.67" end="00:00:06.17" region="speaker"><metadata ccrow="0" cccol="4"/>[Music] One Direction&apos;s<br></br>&quot;Live while we&apos;re young.&quot;</p>
+      <p begin="00:00:06.17" end="00:00:07.17" region="speaker"><metadata ccrow="14" cccol="8"/>♪ Let&apos;s go... ♪</p>
+      <p begin="00:00:07.17" end="00:00:08.67" region="speaker"><metadata ccrow="14" cccol="4"/>♪ crazy, crazy, crazy ♪</p>
+      <p begin="00:00:08.67" end="00:00:10.67" region="speaker"><metadata ccrow="14" cccol="3"/>♪ &apos;till we see the sun. ♪</p>
+      <p begin="00:00:10.67" end="00:00:14.50" region="speaker"><metadata ccrow="13" cccol="5"/>♪ I know we only met,<br></br> but let&apos;s pretend it&apos;s love. ♪</p>
+      <p begin="00:00:14.50" end="00:00:16.33" region="speaker"><metadata ccrow="14" cccol="1"/>♪ And never, never, never... ♪</p>
+      <p begin="00:00:16.33" end="00:00:18.50" region="speaker"><metadata ccrow="14" cccol="8"/>♪ stop for anyone, ♪</p>
+      <p begin="00:00:18.50" end="00:00:19.67" region="speaker"><metadata ccrow="14" cccol="8"/>♪ Tonight let&apos;s... ♪</p>
+      <p begin="00:00:19.67" end="00:00:21.47" region="speaker"><metadata ccrow="14" cccol="4"/>♪  live while we&apos;re young. ♪</p>
+      <p begin="00:00:21.47" end="00:00:23.63" region="speaker"><metadata ccrow="14" cccol="3"/>♪ Oh, oh, oh, oh, oh, oh... ♪</p>
+      <p begin="00:00:23.63" end="00:00:25.60" region="speaker"><metadata ccrow="0" cccol="6"/>Get One Direction’s<br></br>new album,</p>
+      <p begin="00:00:25.60" end="00:00:28.60" region="speaker"><metadata ccrow="0" cccol="1"/>with an exclusive cover photo<br></br>and 5 extra tracks.</p>
+      <p begin="00:00:28.60" end="00:00:31.60" region="speaker"><metadata ccrow="0" cccol="8"/>only at Target.</p>
+    </div>
+  </body>
+</tt>

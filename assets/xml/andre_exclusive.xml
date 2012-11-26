@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling">
+  <head>
+    <layout>
+      <region style="defaultSpeaker" xml:id="speaker"></region>
+    </layout>
+    <styling>
+      <style xml:id="defaultSpeaker" tts:fontSize="40px" tts:fontFamily="Arial Bold" tts:fontWeight="normal" tts:fontStyle="normal" tts:textDecoration="none" tts:color="white" tts:backgroundColor="black" tts:textAlign="center" tts:origin="10% 85%" tts:extent="80% 10%" />
+      <style xml:id="defaultCaption" tts:fontSize="40px" tts:fontFamily="Arial Bold" tts:fontWeight="normal" tts:fontStyle="normal" tts:textDecoration="none" tts:color="white" tts:backgroundColor="black" tts:textAlign="center" tts:origin="10% 85%" tts:extent="80% 10%" />
+    </styling>
+  </head>
+  <body style="defaultCaption" xml:id="thebody">
+    <div xml:lang="en">
+      <p begin="00:00:00.00" end="00:00:00.33" region="speaker"><metadata ccrow="0" cccol="0"/></p>
+      <p begin="00:00:00.33" end="00:00:01.00" region="speaker"><metadata ccrow="0" cccol="0"/></p>
+      <p begin="00:00:01.00" end="00:00:06.00" region="speaker"><metadata ccrow="0" cccol="12"/><span tts:fontWeight="bold" >[Music]<br></br>&quot;Sleigh Ride&quot;</span></p>
+      <p begin="00:00:06.00" end="00:00:23.00" region="speaker" tts:textAlign="right"><metadata ccrow="0" cccol="30"/>♪♪</p>
+      <p begin="00:00:23.00" end="00:00:25.67" region="speaker"><metadata ccrow="0" cccol="2"/>Get André Rieu’s new album,</p>
+      <p begin="00:00:25.67" end="00:00:28.33" region="speaker"><metadata ccrow="0" cccol="4"/>with 3 exclusive tracks<br></br>and bonus DVD.</p>
+      <p begin="00:00:28.33" end="00:00:29.97" region="speaker"><metadata ccrow="0" cccol="8"/>Only at Target.</p>
+      <p begin="00:00:29.97" end="00:00:32.97" region="speaker"><metadata ccrow="0" cccol="0"/></p>
+    </div>
+  </body>
+</tt>
